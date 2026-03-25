@@ -1,0 +1,13 @@
+&INPUTPP
+  prefix='Si'
+  outdir='./tmp'
+  filplot='Si_elf'
+  plot_num=8
+/
+&PLOT
+  nfile=1
+  filepp(1)='Si_elf'
+  iflag=3
+  output_format=5
+  fileout='Si_elf.xsf'
+/

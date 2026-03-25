@@ -1,0 +1,19 @@
+# QE temp/scratch directories
+**/tmp/
+**/tmp_*/
+
+# QE intermediate files
+*.save/
+*.wfc*
+*.mix*
+Si_rho
+Si_elf
+Ge_rho
+Ge_elf
+
+# Python virtual environment
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db

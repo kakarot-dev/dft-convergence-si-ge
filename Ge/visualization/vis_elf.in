@@ -1,0 +1,13 @@
+&INPUTPP
+  prefix='Ge'
+  outdir='./tmp'
+  filplot='Ge_elf'
+  plot_num=8
+/
+&PLOT
+  nfile=1
+  filepp(1)='Ge_elf'
+  iflag=3
+  output_format=5
+  fileout='Ge_elf.xsf'
+/

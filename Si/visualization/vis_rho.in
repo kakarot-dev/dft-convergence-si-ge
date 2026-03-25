@@ -1,0 +1,13 @@
+&INPUTPP
+  prefix='Si'
+  outdir='./tmp'
+  filplot='Si_rho'
+  plot_num=0
+/
+&PLOT
+  nfile=1
+  filepp(1)='Si_rho'
+  iflag=3
+  output_format=5
+  fileout='Si_rho.xsf'
+/

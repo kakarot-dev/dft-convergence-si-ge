@@ -1,0 +1,13 @@
+&INPUTPP
+  prefix='Ge'
+  outdir='./tmp'
+  filplot='Ge_rho'
+  plot_num=0
+/
+&PLOT
+  nfile=1
+  filepp(1)='Ge_rho'
+  iflag=3
+  output_format=5
+  fileout='Ge_rho.xsf'
+/
